@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slider-container {
+  max-width: calc(100% - 60px); /* Adjust based on the width of the menu */
+  overflow: hidden; /* Ensures the slider content doesn't overflow */
+  margin: 0 auto; /* Centers the slider within its container */
+}
